@@ -2,9 +2,10 @@
   "name": "node-webkit-angular-tdd-sample",
   "version": "0.0.0",
   "description": "A Mac/Windows/Linux app example written in javascript using node-webkit, angularjs, bootstrap 3, jasmine, karma, and protractor",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "open -n -a node-webkit `pwd`"
   },
   "repository": {
     "type": "git",
