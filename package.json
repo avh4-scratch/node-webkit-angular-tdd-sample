@@ -1,0 +1,28 @@
+{
+  "name": "node-webkit-angular-tdd-sample",
+  "version": "0.0.0",
+  "description": "A Mac/Windows/Linux app example written in javascript using node-webkit, angularjs, bootstrap 3, jasmine, karma, and protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/avh4-scratch/node-webkit-angular-tdd-sample.git"
+  },
+  "keywords": [
+    "node",
+    "node-webkit",
+    "angularjs",
+    "bootstrap",
+    "karma",
+    "jasmine",
+    "protractor"
+  ],
+  "author": "Aaron VonderHaar <gruen0aermel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avh4-scratch/node-webkit-angular-tdd-sample/issues"
+  },
+  "homepage": "https://github.com/avh4-scratch/node-webkit-angular-tdd-sample"
+}
