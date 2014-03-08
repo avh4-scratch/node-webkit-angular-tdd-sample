@@ -4,7 +4,7 @@
   "description": "A Mac/Windows/Linux app example written in javascript using node-webkit, angularjs, bootstrap 3, jasmine, karma, and protractor",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/.bin/karma start --single-run",
     "start": "open -n -a node-webkit `pwd`"
   },
   "repository": {
@@ -27,6 +27,16 @@
   },
   "homepage": "https://github.com/avh4-scratch/node-webkit-angular-tdd-sample",
   "devDependencies": {
-    "bower": "~1.2.8"
+    "bower": "~1.2.8",
+    "karma-script-launcher": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-firefox-launcher": "~0.1.3",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jasmine": "~0.1.5",
+    "requirejs": "~2.1.11",
+    "karma-requirejs": "~0.2.1",
+    "karma-coffee-preprocessor": "~0.1.3",
+    "karma-phantomjs-launcher": "~0.1.2",
+    "karma": "~0.10.9"
   }
 }
