@@ -6,12 +6,17 @@
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="js/HelloController.js"></script>
 </head>
 <body>
-<div class="container">
-  <div class="jumbotron">
-    <h1>Hello World!</h1>
+<div ng-app="HelloApp" class="container">
+  <div class="jumbotron" ng-controller="HelloController">
+    <h1>Hello<span ng-if="name"> </span>{{ name }}!</h1>
     <p>We are using node.js <script>document.write(process.version)</script>.</p>
+
+    <label for="name">Name</label>
+    <input class="form-control" id="name" ng-model="name"/>
   </div>
 </div>
 </body>
