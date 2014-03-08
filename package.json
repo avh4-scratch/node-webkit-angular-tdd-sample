@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/avh4-scratch/node-webkit-angular-tdd-sample/issues"
   },
-  "homepage": "https://github.com/avh4-scratch/node-webkit-angular-tdd-sample"
+  "homepage": "https://github.com/avh4-scratch/node-webkit-angular-tdd-sample",
+  "devDependencies": {
+    "bower": "~1.2.8"
+  }
 }
