@@ -2,7 +2,8 @@
   "name": "node-webkit-angular-tdd-sample",
   "version": "0.0.0",
   "description": "A Mac/Windows/Linux app example written in javascript using node-webkit, angularjs, bootstrap 3, jasmine, karma, and protractor",
-  "main": "index.html",
+  "main": "http://localhost:3020/",
+  "node-main": "main.js",
   "window": {
     "toolbar": false
   },
@@ -43,5 +44,8 @@
     "karma": "~0.10.9",
     "grunt": "~0.4.3",
     "grunt-node-webkit-builder": "~0.1.17"
+  },
+  "dependencies": {
+    "connect": "~2.14.1"
   }
 }
