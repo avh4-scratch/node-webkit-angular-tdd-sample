@@ -15,4 +15,8 @@ describe('Hello World', function() {
             expect(element(by.css("h1")).getText()).toBe("Hello Arthur!");
         });
     });
+
+    it('shows the node version', function() {
+        expect(element(by.css("p")).getText()).toMatch(/We are using node\.js v\d+\.\d+\.\d+/);
+    });
 });

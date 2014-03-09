@@ -11,7 +11,7 @@
 <div class="container">
   <div class="jumbotron" ng-controller="HelloController">
     <h1>Hello<span ng-if="name"> </span>{{ name }}!</h1>
-    <p>We are using node.js <script>document.write(process.version)</script>.</p>
+    <p ng-init="fetchNodeInfo()">We are using node.js {{ version }}.</p>
 
     <label for="name">Name</label>
     <input class="form-control" id="name" ng-model="name"/>

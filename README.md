@@ -21,6 +21,6 @@ npm install
     - mac: `npm start`
     - windows: `nw C:\path\to\node-webkit-angular-tdd-sample`
     - linux: ``nw `pwd` ``
- - Run the tests: `npm test`
+ - Run the tests: `npm test && npm run-script acceptance-test`
  - Build packaged app: `grunt nodewebkit` (output is in `./build/releases`)
 
