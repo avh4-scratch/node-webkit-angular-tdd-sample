@@ -3,9 +3,17 @@
  - Install [node.js](http://nodejs.org/)
     - mac with [homebrew](http://brew.sh/): `brew install node`
  - Download and install [node-webkit](https://github.com/rogerwang/node-webkit#downloads)
+ - Download and install [Chrome Browser](https://www.google.com/intl/en/chrome/browser/)
  - Install [PhantomJS](http://phantomjs.org/)
     - mac with homebrew: `brew install phantomjs`
  - Install [Grunt](http://gruntjs.com/) CLI `npm install -g grunt-cli`
+
+## Bootstrapping the project
+
+```bash
+npm install
+./node_modules/.bin/webdriver-manager update
+```
 
 ## Development commands
 
