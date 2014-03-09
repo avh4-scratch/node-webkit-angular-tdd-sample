@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "description": "A Mac/Windows/Linux app example written in javascript using node-webkit, angularjs, bootstrap 3, jasmine, karma, and protractor",
   "main": "index.html",
-  "window": {
-    "toolbar": false
-  },
+  "window": {},
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run",
     "start": "open -n -a node-webkit `pwd`"
@@ -42,6 +40,7 @@
     "karma-phantomjs-launcher": "~0.1.2",
     "karma": "~0.10.9",
     "grunt": "~0.4.3",
-    "grunt-node-webkit-builder": "~0.1.17"
+    "grunt-node-webkit-builder": "~0.1.17",
+    "protractor": "git://github.com/avh4/protractor"
   }
 }

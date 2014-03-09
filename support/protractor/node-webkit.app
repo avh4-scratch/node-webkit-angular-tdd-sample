@@ -1,0 +1,1 @@
+../../build/releases/node-webkit-angular-tdd-sample/mac/node-webkit-angular-tdd-sample.app
